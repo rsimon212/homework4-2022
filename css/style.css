@@ -1,0 +1,37 @@
+body {
+    font-family: "Poppins", serif;
+    background-image: url("../images/concrete_seamless.png");
+    background-color: #f1f1f1;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a.nav_links:visited {
+    color: inherit;
+}
+
+.card > header {
+    background: #288088;
+    border: 2px solid #45ADAD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 50px;
+}
+
+.pricing {
+
+}
+
+.card {
+    flex-basis: 450px;
+}
